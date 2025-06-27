@@ -17,8 +17,8 @@ An end-to-end pipeline for scoring B2B SaaS leads in the mid-market manufacturin
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourorg/project-origins-lead-scoring.git
-   cd project-origins-lead-scoring
+   git clone https://github.com/RLikhithBhargav/B2B-Lead-Scoring-Engine.git
+   cd B2B-Lead-Scoring-Engine
   
 2. **Install Python dependencies**
    ```bash
