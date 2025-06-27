@@ -1,0 +1,201 @@
+company_id,company_name,industry,employee_count,annual_revenue,tech_stack,hq_location
+1,"Ramsey, Lopez and Richardson",Finance,3519,28.73,SAP,Pricemouth
+2,Mcdaniel-Solomon,Finance,710,86.16,SAP,North Sandra
+3,Burch-Barron,Retail,579,15.81,SAP,North Tannerberg
+4,Barker-Vazquez,Finance,177,82.86,HubSpot,New Amberberg
+5,"Clark, Singleton and Bailey",Finance,4686,17.72,Salesforce,New Roy
+6,Mcmahon-Wall,Healthcare,1986,53.35,SAP,Port Elizabeth
+7,Zamora-Pennington,Finance,1189,9.56,Oracle,Joshuatown
+8,"Benjamin, Hill and Hernandez",Technology,4269,60.28,Marketo,South Jadeton
+9,Gardner-Mays,Retail,1026,25.96,Marketo,North Amandastad
+10,Gonzales PLC,Healthcare,1033,10.34,SAP,Bakershire
+11,Hale Ltd,Manufacturing,2176,25.78,Salesforce,Brownside
+12,"Gilmore, Bowman and Rose",Healthcare,2217,8.88,Marketo,Robertshire
+13,"Wilson, Hatfield and Barrera",Finance,2445,42.86,Salesforce,North Jacob
+14,Cooley Group,Manufacturing,1659,2.29,SAP,Nicholasville
+15,Nelson and Sons,Retail,887,98.9,Oracle,Avilaborough
+16,Merritt Inc,Finance,3028,89.01,Oracle,Justinbury
+17,Lynch Inc,Retail,2086,65.38,SAP,West Matthewstad
+18,Lopez Ltd,Finance,3295,7.4,Oracle,Tamarafurt
+19,"Joyce, Macias and Smith",Healthcare,2502,33.98,SAP,South Davidfurt
+20,Shields-Martinez,Healthcare,1394,69.29,HubSpot,Moorechester
+21,Martinez Group,Manufacturing,2347,47.88,Marketo,Martinezville
+22,"Buchanan, Barnes and Martin",Technology,4585,1.11,SAP,East Ebony
+23,"Snow, Mccullough and Sherman",Healthcare,1997,31.91,HubSpot,East Timothychester
+24,Martinez Ltd,Finance,4545,31.7,Salesforce,East Ashleybury
+25,Kane Inc,Finance,1726,13.86,HubSpot,West Laurenstad
+26,"Briggs, Patrick and Knapp",Retail,1484,35.86,Salesforce,Port Dawn
+27,Martin and Sons,Retail,1351,23.89,Oracle,North Jesseberg
+28,Watson PLC,Retail,4509,65.56,HubSpot,North Kathybury
+29,Hardin-Delgado,Finance,974,69.83,SAP,Lisaburgh
+30,Diaz-Reese,Healthcare,627,18.93,Oracle,Kellychester
+31,Adams-Suarez,Technology,392,71.56,SAP,Coxside
+32,Horn Ltd,Retail,2837,53.64,HubSpot,Lake Erika
+33,Torres Ltd,Manufacturing,4464,47.4,Salesforce,Fischermouth
+34,"Wilson, Lopez and Doyle",Finance,1162,47.33,Salesforce,Hensleyburgh
+35,"Clark, Owens and Johnston",Technology,133,58.87,Salesforce,Wallsshire
+36,Gomez PLC,Finance,2906,62.0,Salesforce,Christophertown
+37,Kline-Lopez,Retail,2642,93.85,Marketo,New Joseland
+38,Lynch Group,Healthcare,2840,25.65,HubSpot,North Stevenville
+39,"Jacobs, Hammond and Browning",Technology,1335,40.6,Salesforce,Lake Williamstad
+40,Roman Group,Healthcare,165,39.99,HubSpot,Myersburgh
+41,Whitehead Inc,Healthcare,915,35.3,Marketo,Tylermouth
+42,Gilbert-Valdez,Technology,899,99.53,Oracle,Marshallfort
+43,Collins-Hall,Manufacturing,4080,63.76,Marketo,Brownland
+44,Rodriguez Inc,Manufacturing,615,13.97,HubSpot,Lake Denisemouth
+45,Ramos LLC,Healthcare,4938,74.96,HubSpot,South Dalefurt
+46,Olsen-Gonzales,Manufacturing,3179,48.67,SAP,East Janet
+47,Walters Group,Healthcare,1923,65.61,Marketo,South Jackview
+48,Osborne Ltd,Retail,1220,64.66,SAP,Diazberg
+49,Baker-Henry,Retail,4065,41.12,HubSpot,West Carl
+50,James-Johnson,Finance,1247,12.7,Salesforce,Brandonborough
+51,"Nelson, Berry and Gonzalez",Technology,1465,69.07,HubSpot,East Michelletown
+52,Smith PLC,Manufacturing,3496,84.06,Oracle,Elizabethchester
+53,"Gordon, Shah and James",Healthcare,1614,66.05,Marketo,Angelabury
+54,Dunn Ltd,Healthcare,1625,50.21,HubSpot,Port Heatherchester
+55,"Hobbs, Munoz and Oliver",Finance,3267,75.04,Oracle,Jessicaberg
+56,"Wilcox, Cox and Newton",Retail,4392,95.42,Oracle,Shannonton
+57,Powers Inc,Technology,1821,93.52,Oracle,Garciahaven
+58,"Lopez, Barton and Taylor",Finance,611,18.09,Oracle,South Jason
+59,"Harrison, Sawyer and Harper",Retail,2306,79.09,Marketo,Matthewview
+60,Torres-Taylor,Retail,4358,91.26,Salesforce,Melissatown
+61,"Brown, Townsend and Chase",Retail,1060,79.77,Marketo,South Coreychester
+62,James-Flores,Technology,2499,84.55,HubSpot,Laurieville
+63,Weeks Ltd,Finance,2350,28.36,Marketo,North Sharon
+64,Oliver-Smith,Manufacturing,877,55.18,SAP,Lake Carlos
+65,"Anderson, Chan and Gonzales",Healthcare,2495,3.09,HubSpot,North Mirandaside
+66,Olsen-Anderson,Finance,1092,82.47,Salesforce,Port Gina
+67,"Smith, Rios and Silva",Healthcare,565,29.0,Marketo,Kellyside
+68,Sawyer LLC,Retail,3929,54.46,Oracle,Paulchester
+69,"Cruz, Boone and Griffin",Healthcare,3484,79.91,Salesforce,New Jasonland
+70,"Cook, Johnson and Randolph",Finance,4391,43.53,Salesforce,Lake Ashleyton
+71,"Lara, Chan and Buchanan",Finance,2672,22.28,Marketo,Jessicaview
+72,"Mathis, Guerrero and Casey",Manufacturing,4381,62.95,HubSpot,South John
+73,Johnson and Sons,Healthcare,3115,25.15,Salesforce,Heathermouth
+74,Miller-Davis,Healthcare,668,35.03,Salesforce,West Kennethbury
+75,Mills LLC,Manufacturing,3956,61.48,Salesforce,Port Maryport
+76,Collins-Little,Manufacturing,1508,57.9,Marketo,Port Theresafort
+77,Rogers-Wilkins,Healthcare,557,67.79,Oracle,New Danielfort
+78,Grimes-Jensen,Finance,284,79.67,Oracle,Frazierfort
+79,"Michael, Wilson and Chavez",Healthcare,4839,35.0,Salesforce,Taylorborough
+80,Potter Inc,Retail,3863,61.14,Salesforce,East Monicashire
+81,Gomez-York,Retail,2386,82.97,SAP,Paulchester
+82,Sullivan Inc,Manufacturing,3979,28.56,Salesforce,Lake Pamelaside
+83,"Davis, Hardin and Ferguson",Healthcare,4067,90.63,Marketo,New Christina
+84,Reed LLC,Retail,1236,33.92,HubSpot,Codytown
+85,"Taylor, Pham and Hancock",Technology,385,5.22,HubSpot,East Teresaport
+86,Barker-Smith,Manufacturing,730,97.44,Marketo,South Anitafurt
+87,Smith PLC,Retail,3857,9.51,Marketo,Lake Davidhaven
+88,"Tucker, Rivas and Wilson",Retail,2978,79.96,SAP,East Davidhaven
+89,Williams-Browning,Manufacturing,493,71.03,SAP,Lake Valeriemouth
+90,Perez Ltd,Finance,2806,97.37,HubSpot,Freemantown
+91,Joseph Inc,Technology,4882,13.91,Marketo,East Patriciaport
+92,"Robinson, Nielsen and Horne",Finance,1735,91.39,SAP,Smithside
+93,Brown-Bryant,Healthcare,3265,16.83,Marketo,East Daniel
+94,Leon Inc,Technology,3090,84.23,HubSpot,Nicoleville
+95,Johnson-King,Retail,4542,2.82,SAP,Port Hailey
+96,Edwards-Shaw,Retail,2442,36.44,Salesforce,Alexandertown
+97,"Adams, Brown and Perez",Healthcare,4846,88.54,Oracle,Heatherport
+98,Brown-Mckay,Manufacturing,3889,62.64,Salesforce,Jacksonshire
+99,Orr-Lopez,Healthcare,71,23.98,Oracle,New Davidside
+100,Sanchez-Burns,Finance,4691,39.9,SAP,Howardville
+101,"Mack, Ortiz and Jackson",Finance,3300,45.9,Salesforce,Boltonbury
+102,Sandoval Ltd,Technology,1193,37.3,Salesforce,Jacksonhaven
+103,Rivers Inc,Technology,686,53.66,Salesforce,Rogersshire
+104,Davis and Sons,Retail,855,3.51,Marketo,Norrismouth
+105,Taylor and Sons,Manufacturing,2549,26.93,SAP,New Karenfurt
+106,"Carpenter, Tate and Glenn",Technology,2302,27.61,Oracle,East Lauren
+107,Butler-Gallagher,Technology,2232,52.35,SAP,New Ashley
+108,"Kim, Robbins and Ayala",Technology,551,30.75,Marketo,Michaelview
+109,"Jones, Peters and Kelley",Manufacturing,3413,37.03,Marketo,East Jack
+110,Arroyo PLC,Healthcare,3108,44.24,SAP,East Jacobland
+111,"Mccoy, Waller and Rodriguez",Technology,1425,29.06,HubSpot,Lake Amy
+112,Hudson-Kelly,Technology,1125,5.4,HubSpot,West Jeremiah
+113,Mcgee-Aguilar,Manufacturing,1772,91.6,Marketo,Tranborough
+114,"Mendoza, Adams and Davidson",Retail,1187,16.93,Marketo,Anthonystad
+115,Harrell Inc,Finance,2450,31.17,SAP,Christopherburgh
+116,"Taylor, Newman and Whitehead",Finance,3992,70.58,SAP,Port Jeffery
+117,Jones Ltd,Finance,2782,20.79,HubSpot,South Anthonyview
+118,Robertson PLC,Technology,941,77.28,Oracle,Port Troybury
+119,Johnson Ltd,Finance,2528,65.09,Marketo,East Williamborough
+120,Stephens Inc,Manufacturing,1808,22.25,Marketo,Port Daniellebury
+121,White and Sons,Finance,1819,16.68,Salesforce,Watkinsburgh
+122,Pitts-Snyder,Manufacturing,4448,55.84,HubSpot,North Ashley
+123,Gonzalez PLC,Finance,2752,47.4,SAP,Joeltown
+124,"Cox, Smith and Padilla",Technology,1705,35.19,Marketo,New Leslie
+125,"Hicks, Love and Liu",Technology,4861,82.44,HubSpot,Benjaminbury
+126,"Conley, Smith and Velez",Retail,4270,12.11,Oracle,Lopezhaven
+127,Gibson-Rogers,Healthcare,2538,28.48,SAP,Michaelmouth
+128,"Gibson, Dudley and Page",Technology,2912,2.56,SAP,North Sandra
+129,Foster-Martin,Finance,2786,25.91,Salesforce,South Brenda
+130,Campbell Group,Healthcare,4915,64.48,HubSpot,East Crystal
+131,Jacobson PLC,Retail,4824,33.96,Oracle,Mannport
+132,Chapman Group,Finance,544,12.03,Salesforce,Carmentown
+133,Graves-Murphy,Healthcare,1353,2.05,Salesforce,West Cristian
+134,Blackwell Inc,Healthcare,3847,12.8,HubSpot,Jerryborough
+135,"Francis, Cisneros and Jones",Technology,552,3.19,HubSpot,Baileyshire
+136,"Ramos, Jackson and Evans",Manufacturing,177,47.55,Oracle,Jasminefort
+137,Davis Ltd,Finance,3816,97.59,HubSpot,Danielbury
+138,"Medina, Phillips and Diaz",Finance,3470,34.31,Marketo,Seanview
+139,Sharp Ltd,Retail,798,82.08,SAP,Port Kristen
+140,Stewart-Roberts,Healthcare,4201,59.73,Salesforce,Nicholasland
+141,"Chavez, Townsend and Miller",Manufacturing,4275,34.74,HubSpot,Port Alexandra
+142,Hawkins-Blackwell,Retail,4000,36.28,SAP,Jessicaville
+143,Kennedy-Dean,Technology,1554,71.22,Marketo,Pughtown
+144,Lang-Thomas,Healthcare,3914,43.34,Marketo,East Veronica
+145,"Yang, Giles and Kramer",Retail,2154,74.24,Marketo,Josefort
+146,"English, Shaffer and Morales",Manufacturing,3520,9.01,Marketo,Port Johnbury
+147,Johnston and Sons,Finance,2419,21.94,HubSpot,Sloanbury
+148,Frank Inc,Finance,2357,76.68,HubSpot,South Lori
+149,Stone LLC,Retail,2295,86.39,HubSpot,Adamsfurt
+150,Watkins-Wood,Finance,811,1.48,HubSpot,Shannonmouth
+151,"Williams, Hicks and Williams",Technology,2290,77.14,Oracle,South Katherineborough
+152,"Pineda, Kim and Smith",Healthcare,66,22.59,Marketo,Nancyberg
+153,Rose Inc,Manufacturing,1365,72.28,Marketo,Teresamouth
+154,Nicholson LLC,Retail,3590,59.94,Oracle,Anthonyfurt
+155,"Garcia, Kennedy and Allen",Manufacturing,2794,66.52,Oracle,Lake Andreabury
+156,"Edwards, Schmidt and Newton",Manufacturing,2263,36.87,HubSpot,Jasonville
+157,Hill-Becker,Healthcare,1561,28.17,Salesforce,Meadowsberg
+158,"Cohen, Mckenzie and Vega",Technology,388,36.1,Oracle,Flowersview
+159,Trujillo and Sons,Technology,2548,59.13,SAP,North Jeremy
+160,Flores-Sanford,Healthcare,1498,90.7,Oracle,West Joe
+161,"Stewart, Martin and Arroyo",Manufacturing,4611,40.03,Oracle,Williamsside
+162,"Taylor, Jordan and Jordan",Finance,3621,39.09,HubSpot,Port Justintown
+163,"Holmes, Porter and Vincent",Healthcare,4329,96.66,Salesforce,Hugheston
+164,"Phillips, Krause and Roberts",Retail,263,67.06,Marketo,North Jessica
+165,Campbell Inc,Healthcare,2560,15.33,Oracle,Robertton
+166,Heath PLC,Retail,1009,54.93,Marketo,Evansstad
+167,Wright-Neal,Healthcare,3756,2.93,Oracle,Taylorstad
+168,Guerrero PLC,Manufacturing,3584,68.76,Marketo,North Greggshire
+169,Fry-Rodriguez,Healthcare,3219,64.47,HubSpot,Chavezfurt
+170,Olsen Ltd,Technology,1833,5.96,Marketo,New Michellestad
+171,Brown-Graham,Manufacturing,1622,36.33,SAP,Ayersport
+172,Phillips Group,Manufacturing,948,92.54,Salesforce,Shaffershire
+173,"Scott, Smith and Chapman",Healthcare,2616,64.37,SAP,South Charles
+174,Henry-Gonzales,Technology,1838,59.45,SAP,Port Patricia
+175,Perez-Huffman,Finance,2692,66.66,SAP,Myersshire
+176,Saunders-Harrison,Healthcare,1048,19.87,SAP,Mcdowellside
+177,"Martin, Ochoa and Murphy",Finance,3412,90.81,Salesforce,West Toddstad
+178,Powers LLC,Healthcare,309,16.51,Oracle,Johnport
+179,Ward-Gray,Healthcare,1992,95.73,Oracle,Potterberg
+180,Wilson Inc,Manufacturing,1066,81.28,SAP,Suttonfort
+181,"Henry, Washington and Collins",Technology,4496,74.35,Salesforce,Christophermouth
+182,"Sosa, Smith and Alvarez",Technology,4167,97.32,HubSpot,Lake Pamela
+183,Reilly-Adams,Manufacturing,2163,11.16,Oracle,Salazarhaven
+184,Williams LLC,Technology,929,4.61,Oracle,North Edwinborough
+185,Wells-Freeman,Manufacturing,107,60.39,Oracle,West Tanya
+186,Deleon Inc,Manufacturing,2645,44.0,SAP,West Jessicashire
+187,"Luna, Graves and Duarte",Finance,1486,32.1,SAP,Beardfurt
+188,Ortiz and Sons,Manufacturing,828,85.71,Oracle,Jacksonburgh
+189,Flores-Sanchez,Retail,4999,70.43,HubSpot,Camposfurt
+190,Williams PLC,Finance,1238,49.64,Oracle,Michelleville
+191,Wade Inc,Technology,3736,44.69,Marketo,East Tracey
+192,Beasley LLC,Technology,772,25.34,SAP,East Megan
+193,"Williams, Romero and Harris",Finance,3940,77.6,HubSpot,Jonesborough
+194,"Horton, Martinez and Fields",Retail,4896,95.33,HubSpot,Leemouth
+195,Price-Williams,Manufacturing,1180,35.46,Salesforce,Lisafurt
+196,Watkins-Johnson,Technology,289,16.84,Salesforce,New Tammy
+197,"Russell, Bonilla and Mendez",Finance,3527,48.02,HubSpot,Lake Seth
+198,"Young, Cooper and Curtis",Healthcare,3481,10.66,SAP,Pamelafort
+199,Wilson Group,Finance,4457,91.71,Oracle,Lesliemouth
+200,Stewart Inc,Retail,3370,39.61,Marketo,Gomezborough
