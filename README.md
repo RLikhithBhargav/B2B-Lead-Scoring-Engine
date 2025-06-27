@@ -34,7 +34,7 @@ An end-to-end pipeline for scoring B2B SaaS leads in the mid-market manufacturin
        1. Ingest data from Snowflake
        2. Engineer features (lead_age, total_engagements, unique_actions, days_since_nonconv, industry dummies)
        3. Train & tune Random Forest (final AUC ≈ 0.95)
-       4. Export model_input.csv & lead_scores.csv
+       4. Export model_input.csv, lead_scores.csv & enriched_lead_scores.csv
           
 5. **Power BI Dashboard**
    - Open powerbi/LeadScoring.pbix.
