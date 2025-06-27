@@ -1,0 +1,186 @@
+{
+  "name": "Hot Lead Email Alerts",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "triggerAtHour": 8
+            }
+          ]
+        }
+      },
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        0
+      ],
+      "id": "11206b0f-4851-4a17-94c1-ebc4ffa802cd",
+      "name": "Schedule Trigger",
+      "notes": "Email Hot Lead Trigger"
+    },
+    {
+      "parameters": {
+        "options": {
+          "delimiter": ",",
+          "headerRow": true
+        }
+      },
+      "type": "n8n-nodes-base.extractFromFile",
+      "typeVersion": 1,
+      "position": [
+        560,
+        180
+      ],
+      "id": "128a9aa4-744d-4f02-a5f5-717613633826",
+      "name": "Extract from File"
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "strict",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "a67bee34-78f1-4271-bb3e-e4cb70968274",
+              "leftValue": "={{ parseFloat($json[\"lead_score\"]) }}",
+              "rightValue": 0.99,
+              "operator": {
+                "type": "number",
+                "operation": "gte"
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        840,
+        260
+      ],
+      "id": "51770416-512f-4887-ad1f-6d99caa56808",
+      "name": "If"
+    },
+    {
+      "parameters": {
+        "sendTo": "likhithbhargav07@gmail.com",
+        "subject": "=Hot Lead: Lead ID - {{$json[\"lead_id\"]}}, Contact Name - {{$json[\"Contact Name\"]}}",
+        "emailType": "text",
+        "message": "=🚀 New Hot Lead! 🚀\n\nScore: {{$json[\"lead_score\"]}}\nName of the Company: {{$json[\"Company Name\"]}}\nDays Since Last Non-Conversion: {{$json[\"days_since_nonconv\"]}}\n",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.gmail",
+      "typeVersion": 2.1,
+      "position": [
+        1160,
+        400
+      ],
+      "id": "2f47965c-2444-4b5b-b111-17afbebdf073",
+      "name": "Gmail",
+      "webhookId": "bae61c09-5740-4fe6-982b-e5dcb467fb7c",
+      "credentials": {
+        "gmailOAuth2": {
+          "id": "cQXQWMJgOCIRFrHK",
+          "name": "Gmail account"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "operation": "download",
+        "fileId": {
+          "__rl": true,
+          "value": "https://drive.google.com/file/d/1SKm1rQ2T-fmydAKF2pBptLq3frxB5H6q/view?usp=drive_link",
+          "mode": "url"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleDrive",
+      "typeVersion": 3,
+      "position": [
+        260,
+        80
+      ],
+      "id": "100644dd-84d9-4367-a6b9-4662f52142d5",
+      "name": "Google Drive",
+      "credentials": {
+        "googleDriveOAuth2Api": {
+          "id": "MesuRPHkFSRNr2Zi",
+          "name": "Google Drive account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Schedule Trigger": {
+      "main": [
+        [
+          {
+            "node": "Google Drive",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Extract from File": {
+      "main": [
+        [
+          {
+            "node": "If",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "If": {
+      "main": [
+        [
+          {
+            "node": "Gmail",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Gmail": {
+      "main": [
+        []
+      ]
+    },
+    "Google Drive": {
+      "main": [
+        [
+          {
+            "node": "Extract from File",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "d9be93a6-6945-46e2-9369-d47ebdfc2f22",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "54ee7fc364c5d09ec0536c558ca1641edd8d8a6af702cc2e35b3d889f7634e56"
+  },
+  "id": "TmPQjrE3Kbm22quA",
+  "tags": []
+}
